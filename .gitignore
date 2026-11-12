@@ -6,7 +6,6 @@ node_modules/
 
 # Base de datos SQLite - tiene datos reales de estudiantes
 *.db
-*.sqlite
 *.sqlite3
 asistencia.db
 
