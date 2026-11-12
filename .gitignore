@@ -1,0 +1,23 @@
+# Dependencias - se reinstalan con npm install, no se suben
+node_modules/
+
+# Variables de entorno - NUNCA subir, tiene IPs y config de tu red
+.env
+
+# Base de datos SQLite - tiene datos reales de estudiantes
+*.db
+*.sqlite
+*.sqlite3
+asistencia.db
+
+# Excels con datos personales de estudiantes
+*.xlsx
+*.xls
+
+# Logs y archivos de sistema
+*.log
+.DS_Store
+Thumbs.db
+
+# Pero SI subir el ejemplo de configuracion
+!.env.example
